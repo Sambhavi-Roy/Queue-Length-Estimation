@@ -15,7 +15,7 @@ df = pd.read_csv(csv_file)
 # Load the video
 video_path = r"C:\Users\Sambhavi Roy\Downloads\720 good.mp4"  # Update with your actual file path
 cap = cv2.VideoCapture(video_path)
-output_path = r"C:\Users\Sambhavi Roy\Downloads\projdist2.mp4"
+output_path = r"C:\Users\Sambhavi Roy\Downloads\ROIprogQueue2.mp4"
 
 # Get video properties
 frame_width = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
